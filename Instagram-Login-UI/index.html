@@ -7,6 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Instagram</title>
     <style>
+        .navbar span{
+            color: gray;
+            padding: 10px;
+        }
        input{
         all: unset;
         padding: 10px;
@@ -18,7 +22,7 @@
         border: 1px solid rgba(38, 38, 38, 0.4);
     }
     *{
-        font-family: -apple-system, "system-ui", "Segoe UI", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        font-family: -apple-system, "system-ui", "Segoe UI", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif !important;
     }
     </style>
 </head>
@@ -39,6 +43,7 @@
             align-content: center;
             justify-content: center;
             align-items: center;
+            height: 90%;
         "
     >
         <div 
@@ -48,6 +53,8 @@
                 width: 430px; 
                 background-image: url(https://www.instagram.com/static/images/homepage/phones/home-phones.png/1dc085cdb87d.png); 
                 background-repeat: no-repeat;
+                transform: scale(1.125);
+                margin-right: 40px;
             "
         >
             <image 
@@ -56,7 +63,8 @@
                 style="position: relative; top:28px; left: 155px;"
             />
         </div>
-        <div class="right">
+        <div class = "right" style="margin-top: -130px">
+        <div>
             <div style="display: flex;
             flex-direction: column;
             flex-wrap: nowrap;
@@ -123,9 +131,94 @@
                         "
                     ></div>
                 </div>
+                <div style="
+                            text-align: center; 
+                            margin-top: 20px; 
+                            color: rgb(56, 81, 133);
+                            font-weight: 600;
+                            font-size: 18px;
+                            "
+                >
+                    <span 
+                        style="
+                            display: inline-block;
+                            margin-right: 8px;
+                            position: relative;
+                            top: 1px;
+                            height: 16px;
+                            width: 16px;
+                            background-image: url(https://www.instagram.com/static/bundles/es6/sprite_core_32f0a4f27407.png/32f0a4f27407.png);
+                            background-repeat: no-repeat;
+                            background-position: -414px -259px;
+                            transform: scale(1.4);
+                        "
+                    ></span>
+                    <span>Log in with Facebook</span>
+                </div>
+                <div style="
+                            color: rgb(0, 55, 107);
+                            text-align: center;
+                            padding-top: 20px;
+                    "
+                >
+                    Forgot password?
+                </div>
             </div>
+        </div>
+        <div 
+            style="
+                background-color: white; 
+                border: 1px solid rgb(219, 219, 219);
+                text-align: center;
+                padding: 20px;
+                margin: 20px;
+            "
+        >
+        Don't have an account? 
+        <span style="color: rgba(0, 149, 246, 1); font-weight: 600;"
+            >Sign Up?</span>
+        </div>
+        <div style="text-align: center;">Get the app.</div>
+        <div style="text-align: center; margin-top: 20px;">
+            <img src="apple-store.png" alt="" style="width: 150px;">
+            <img src="play-store.png" alt="" style="width: 150px;">
+        </div>
+    </div>
+    </div>
+    <div style="height: 10%; margin-top: -3%;">
+        <div style=
+            "
+                display: flex; 
+                flex-direction: row; 
+                flex-wrap: wrap;
+                text-align: center;
+                justify-content: center;
+                max-width: 1200px;
+                margin: auto;
+            " 
+                class="navbar">
+        <span>Meta</span>    
+        <span>About</span>    
+        <span>Blog</span>   
+        <span>Jobs</span>     
+        <span>Help</span>     
+        <span>API</span>     
+        <span>Privacy</span>     
+        <span>Terms</span>     
+        <span>Top Accounts</span>     
+        <span>Hashtags</span>     
+        <span>Locations</span>     
+        <span>Instagram Lite</span>     
+        <span>Contact Uploading & Non-Users</span>     
+        <span>Dance</span>     
+        <span>Food & Drink</span>     
+        <span>Home & Garden</span>     
+        <span>Music</span>     
+        <span>Visual Arts</span>     
+        </div>
+        <div style="text-align:center; color: gray; padding: 10px">
+            © 2022 Instagram from Meta
         </div>
     </div>
 </body>
-
 </html>
