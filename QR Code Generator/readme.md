@@ -2,6 +2,6 @@
 
 Simple app to generate and download a QR code that can be used to share a link.
 
-[Live Demo](https://qrcodes.tech)
+[Live Demo](https://online-qrcode-generator.netlify.app/)
 
 <img src="img/mockup.png">
